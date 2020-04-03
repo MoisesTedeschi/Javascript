@@ -1,4 +1,5 @@
 ## Exemplo prático de envio de uma mensagem SMS pelo Node.js com API do Total Voice
+![](https://github.com/MoisesTedeschi/Javascript/blob/master/nodejs/sms-nodejs/img/nodejs.png)
 
 * Documentação: https://www.totalvoice.com.br/doc/#introducao
 
