@@ -1,9 +1,9 @@
-##Exemplo prático de envio de uma mensagem SMS pelo Node.js com API do Total Voice
+## Exemplo prático de envio de uma mensagem SMS pelo Node.js com API do Total Voice
 
-*Documentação: https://www.totalvoice.com.br/doc/#introducao
+* Documentação: https://www.totalvoice.com.br/doc/#introducao
 
 
-##Referências
+## Referências
 
 * [O que é API? (Enviando SMS pelo Node.js)](https://www.youtube.com/watch?v=keaoofSGPAE&feature=em-uploademail)
 * [Gerenciando variáveis ambiente no NodeJS](https://blog.rocketseat.com.br/variaveis-ambiente-nodejs/)
