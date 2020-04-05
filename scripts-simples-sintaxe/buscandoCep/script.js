@@ -18,10 +18,10 @@ botao.addEventListener('click', () => {
                 console.log(response);
             })
             .catch(function (error) {
-                alert('Error, verifique os dados informados')
+                alert('Error! Verifique os dados informados.')
                 console.warn('Erro na requisição.');
             })
     } else {
-        alert('Preencha o campo somente com números');
+        alert('Preencha o campo somente com números.');
     }
 });
