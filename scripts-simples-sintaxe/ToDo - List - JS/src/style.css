@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+	font-family: Roboto, sans-serif;
+	color: #333333;
+}
+body {
+	background: #edf0f2;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.app {
+	padding: 25px;
+}
+input {
+	padding: 8px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 250px;
+}
+form button {
+	background: #43bc70;
+	padding: 8px 12px;
+	font-size: 16px;
+	color: #fff;
+	border: 0;
+	border-radius: 4px;
+}
+.lista button {
+	background: transparent;
+	font-size: 14px;
+	border: 1px solid red;
+	color: red;
+	text-transform: uppercase;
+}
+li {
+	margin-bottom: 10px;
+}
+li button {
+	margin-left: 10px;
+}
