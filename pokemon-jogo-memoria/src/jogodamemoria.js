@@ -53,8 +53,8 @@ class JogoDaMemoria {
 
 		const idDoIntervalo = this.tela.inicarContador()
 
-		//Vamos esperar 3 segundo para atualizar a tela.
-		await this.util.timeout(3000)
+		//Vamos esperar 4 segundo para atualizar a tela.
+		await this.util.timeout(4000)
 
 		this.tela.limparContador(idDoIntervalo)
 		this.esconderPokemons(copias)

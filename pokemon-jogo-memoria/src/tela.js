@@ -108,7 +108,7 @@ class Tela {
 		//onde está o $$contador adicionaremos o valor.
 		const identificadorNoTexto = '$$contador'
 
-		const textoPadrao = `Começando em ${identificadorNoTexto} segundos...`
+		const textoPadrao = `Começando em: ${identificadorNoTexto} segundos...`
 
 		//Vamos criar uma função em linha para atualizar o texto a cada segundo
 		const atualizarTexto = () => (elementoContador.innerHTML = textoPadrao.replace(identificadorNoTexto, contarAte--))
