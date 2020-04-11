@@ -1,6 +1,17 @@
-.pokemon-title{
+.pokemon-title {
 	margin: 40px 0 20px 0;
 }
-#carregando{
+#carregando {
 	margin: 10px 0 30px 0;
+}
+.card {
+	width: 50%;
+}
+@media (max-width: 576px) {
+	.card {
+		width: 100%;
+	}
+	#conteudo > .col-sm-3 {
+		width: 50%;
+	}
 }
