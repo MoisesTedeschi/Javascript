@@ -102,7 +102,7 @@ class Tela {
 
 	}
 	static inicarContador() {
-		let contarAte = 3
+		let contarAte = 5
 		const elementoContador = document.getElementById(ID_CONTADOR)
 		//Vamos substituir o texto começando $$contador segundos
 		//onde está o $$contador adicionaremos o valor.
