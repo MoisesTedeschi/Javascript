@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="index.js"></script>
+    <script src="src/util.js"></script>
+    <script src="src/jogodamemoria.js"></script>
+    <script src="src/tela.js"></script>
+ 
+	<title>POKÉMON - JOGO DA MEMÓRIA</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div class="container-fluid" align="center">
+		<h1 class="pokemon-title">POKÉMON - JOGO DA MEMÓRIA</h1>
+		<div class="row">
+			<div class="col-md-12">
+				<button type="button" class="btn btn-info" id="jogar">INICIAR JOGO</button>
+				<button type="button" class="btn btn-success" id="mostrarTudo">MOSTRAR TUDO</button>
+			</div>
+		</div>
+
+		<div id="carregando" class="row invisible">
+			<div class="col-md-12">
+				<strong id="contador"></strong>
+				<div class="spinner-border text-warning">
+					<span class="sr-only"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="offset-md-4 col-md-4">
+				<div id="mensagem" class="alert alert-success invisible" role="alert">
+				  Combinação!!!
+				</div>
+			</div>
+		</div>
+
+		<div id="conteudo" class="row"></div>
+
+	</div>
+</body>
+</html>
